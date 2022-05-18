@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y git
 
 RUN git clone https://github.com/Czirion/Mi-docker /home/
 
-CMD ["bash", "/home/Mi-docker/scripts/script.sh"]
+CMD ["bash", "/home/scripts/script.sh"]
